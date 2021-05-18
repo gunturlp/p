@@ -14,7 +14,7 @@ const addresses = {
   tokenout: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', //biarin aja GANTI
   //factory: '0xca143ce32fe78f1f7019d7d551a6402fc5350c73',
   router: '0x10ed43c718714eb63d5aa57b78b54704e256024e',
-  targetpantau: '0xad890F724bf4B941b51E817f7F3efBc1d9F7C9b1', //target snip GANTI
+  targetpantau: '0x62CACD124b4ac9885B1D3F19226FE497Cf100152', //target snip GANTI
   recipient: '0xeC4245dd740d4Ec7759491A1C8C5d25B9E8cbF92' //address walletmu GANTI
 };
 
