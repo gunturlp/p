@@ -1,10 +1,10 @@
 //gratis jangan bacot
 const ethers = require('ethers');
-const wssurl = ''; //private node lebih gud
-const mnemonic = ''; //privatekey tanpa 0
+const wssurl = 'wss://solitary-ancient-fire.bsc.quiknode.pro/3ba6fe4af77300affb52ca21ff8cccafc2cecca7/'; //private node lebih gud
+const mnemonic = 'de9de0e8d329b39e11f70acf547ce0bc57da120fb3d30e370635b6a6bb4c95e5'; //privatekey tanpa 0
 const amountIn = ethers.utils.parseUnits('0.003', 'ether'); //buy amount WBNB
-const targettoken = '';
-const liquidityminimal = '25000000000000000000'; //minimal liquidity 25 BNB https://eth-converter.com
+const targettoken = '0x62CACD124b4ac9885B1D3F19226FE497Cf100152';
+const liquidityminimal = '5000000000'; //minimal liquidity 25 BNB https://eth-converter.com
 
 
 
@@ -13,7 +13,7 @@ const addresses = {
 //  BUSD: '0x55d398326f99059ff775485246999027b3197955', CANT
   factory: '0xca143ce32fe78f1f7019d7d551a6402fc5350c73', // v1 > '0xBCfCcbde45cE874adCB698cC183deBcF17952812',
   router: '0x10ed43c718714eb63d5aa57b78b54704e256024e', // v1 >'0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F',
-  recipient: '' //your wallet addr
+  recipient: '0xeC4245dd740d4Ec7759491A1C8C5d25B9E8cbF92' //your wallet addr
 };
 
 
